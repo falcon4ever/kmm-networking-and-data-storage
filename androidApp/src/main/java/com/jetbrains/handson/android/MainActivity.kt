@@ -1,4 +1,4 @@
-package com.jetbrains.handson.androidApp
+package com.jetbrains.handson.android
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

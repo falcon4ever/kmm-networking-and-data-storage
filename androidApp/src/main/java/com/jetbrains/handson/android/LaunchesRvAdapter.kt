@@ -1,4 +1,4 @@
-package com.jetbrains.handson.androidApp
+package com.jetbrains.handson.android
 
 import android.view.LayoutInflater
 import android.view.View
