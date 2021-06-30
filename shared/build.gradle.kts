@@ -14,7 +14,6 @@ version = "1.0-SNAPSHOT"
 repositories {
     gradlePluginPortal()
     google()
-    jcenter()
     mavenCentral()
 }
 kotlin {
@@ -35,10 +34,10 @@ kotlin {
 
     android()
 
-    val ktorVersion = "1.4.0"
-    val serializationVersion = "1.0.0-RC"
+    val ktorVersion = "1.6.0"
+    val serializationVersion = "1.2.1"
     val sqlDelightVersion: String by project
-    val coroutinesVersion = "1.3.9-native-mt"
+    val coroutinesVersion = "1.5.0-native-mt"
 
     sourceSets {
         val commonMain by getting {
@@ -83,8 +82,8 @@ android {
     defaultConfig {
         minSdkVersion(24)
         targetSdkVersion(29)
-        versionCode = 1
-        versionName = "1.0"
+        //versionCode = 1
+        //versionName = "1.0"
     }
     buildTypes {
         getByName("release") {
